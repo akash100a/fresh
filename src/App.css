@@ -1,0 +1,9 @@
+*{
+    @apply box-border font-popins;
+}
+.center{
+    @apply flex justify-center items-center;
+}
+img{
+    max-width: 100%;
+}
