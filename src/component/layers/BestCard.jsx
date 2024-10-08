@@ -3,8 +3,8 @@ import { IoIosStar } from "react-icons/io";
 
 const BestCard = ({img,title,del,price}) => {
     return (
-        <div className="card">
-            <div className="rounded-t-[60px] w-96 h-[424px] overflow-hidden">
+        <div className="card w-[50%]">
+            <div className="rounded-t-[60px] xl:w-96 md:h-[424px] h-[300px] overflow-hidden">
                 <img className='w-full h-full object-cover' src={img} alt="" />
             </div>
             <div className="py-3 bg-[#fff]">
