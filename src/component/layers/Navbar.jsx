@@ -24,7 +24,7 @@ const Navbar = () => {
             </button>
           </div>
           <div className={ `slg:flex slg:flex-grow slg:visible slg:h-full ${open ? "invisible h-0" :"visible h-full"}`}>
-            <ul className='my-4 gap-1 slg:my-0 mx-auto flex flex-col slg:flex-row slg:items-center slg:gap-14'>
+            <ul className='my-4 gap-1 slg:my-0 mx-auto flex flex-col slg:flex-row slg:items-center slg:gap-5 lg:gap-13 xl:gap-14'>
               <Li litext='men' />
               <Li litext='women' />
               <Li litext='kids' />

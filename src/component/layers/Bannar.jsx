@@ -16,10 +16,10 @@ const Bannar = () => {
                         <Link className='font-semibold text-2xl text-[#fff] rounded-xl slg:py-[25px] py-[16px] px-[70px] slg:px-[91px] bg-[#000]' to='#'>SHOP NOW</Link>
                     </div>
                     <div className="mt-10 slg:mt-0 relative">
-                        <div className="rounded-none slg:w-[33.44rem] slg:h-[40.19rem] bg-red-100 rounded-bl-[195px] overflow-hidden relative z-10">
+                        <div className="rounded-none slg:w-[28.44rem] slg:h-[36.19rem] lg:w-[33.44rem] lg:h-[40.19rem] bg-red-100 rounded-bl-[195px] overflow-hidden relative z-10">
                             <img className='w-full h-full' src={Bannarimg} alt="" />
                         </div>
-                        <img className='absolute right-[470px] top-[400px] z-0' src={Bannarillus} alt="" />
+                        <img className='absolute right-[351px] lg:right-[470px] top-[400px] z-0' src={Bannarillus} alt="" />
                     </div>
                 </Container>
             </div>

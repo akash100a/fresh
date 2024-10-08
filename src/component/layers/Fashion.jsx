@@ -7,23 +7,23 @@ import Fashion3 from '../../../public/fashion3.png'
 const Fashion = () => {
     return (
         <div className='pb-[335px]'>
-            <Container className='flex justify-between'>
+            <Container className='flex slg:justify-between flex-col slg:flex-row'>
                 <div className='relative'>
                     <div className="w-[41.25rem] h-[42.88rem] rounded-tl-[150px] overflow-hidden bg-red-300">
                         <img src={Fashion1} alt="" />
                     </div>
                     <img className='absolute right-[-90px] top-[-48px] z-[-1]' src={Fashion2} alt="" />
-                    <div className="w-[49.56rem] h-72 bg-[#feecc8] rounded-2xl absolute top-[614px] right-[-664px] z-[-1] flex items-center px-[60px] justify-between">
+                    <div className="w-full mt-3 slg:mt-0 slg:w-[49.56rem] slg:h-72 bg-[#feecc8] rounded-2xl slg:absolute slg:top-[614px] static slg:right-[-664px] z-[-1] slg:flex items-center px-[60px] justify-between">
                         <div className="">
                             <h2 className='font-bold text-[4.00rem] leading-none text-[#000] mb-[28px]'>2010</h2>
                             <p className='font-medium text-[1.75rem] leading-8 text-[#000]'>Founded</p>
                         </div>
-                        <img src={Fashion3} alt="" />
+                        <img className='hidden slg:block' src={Fashion3} alt="" />
                         <div className="">
                             <h2 className='font-bold text-[4.00rem] leading-none text-[#000] mb-[28px]'>5000+</h2>
                             <p className='font-medium text-[1.75rem] leading-8 text-[#000]'>Product Sold</p>
                         </div>
-                        <img src={Fashion3} alt="" />
+                        <img className='hidden slg:block' src={Fashion3} alt="" />
                         <div className="">
                             <h2 className='font-bold text-[4.00rem] leading-none text-[#000] mb-[28px]'>4500+</h2>
                             <p className='font-medium text-[1.75rem] leading-8 text-[#000]'>Best Reviews</p>

@@ -9,7 +9,7 @@ import BestCard from './BestCard';
 const BestProduct = () => {
   return (
     <div className='pt-[36px] pb-[191px] bg-[#cfa485]'>
-      <Container className='flex justify-between'>
+      <Container className='flex slg:justify-between flex-col slg:flex-row'>
         <div>
           <h2 className='max-w-[437px] font-bold text-[4.00rem] leading-none text-[#fff] mb-[43px]'>Best Seller Product</h2>
           <p className='font-bold text-2xl text-[#fff] max-w-[437px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac neque, velit tortor quam at donec etiam bibendum sagittis. Libero tempor, lacus amet, scelerisque neque mauris odio risus nec. Nisl, parturient at morbi morbi sit arcu. At integer maecenas tortor non lectus.</p>
